@@ -970,6 +970,16 @@ span, a, a:hover {
 /* ----------------------------------------------------------------
 				14 Responsive
 -----------------------------------------------------------------*/
+@media screen and (max-width: 575px) {
+  .header .caption h1 span {
+    display: none;
+    font-size: 20px;
+  }
+
+  .container {
+    max-width: 575px;
+  }
+}
 @media screen and (max-width: 991px) {
   .mb-md50 {
     margin-bottom: 50px;

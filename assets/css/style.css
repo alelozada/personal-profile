@@ -976,6 +976,10 @@ span, a, a:hover {
     font-size: 20px;
   }
 
+  .portfolio .filtering span {
+    margin-bottom: 15px;
+  }
+
   .container {
     max-width: 575px;
   }

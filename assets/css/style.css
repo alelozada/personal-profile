@@ -568,6 +568,7 @@ span, a, a:hover {
 }
 .aboutme .content p {
   margin-bottom: 15px;
+  text-align: justify;
 }
 .aboutme .content p span {
   font-weight: 700;
@@ -590,6 +591,12 @@ span, a, a:hover {
 }
 .aboutme .content .buton {
   margin-top: 30px;
+}
+
+.aboutme-container-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ----------------------------------------------------------------
